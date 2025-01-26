@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "40fd3c10-d069-4803-b7a2-c77075e08846",
+    "Name": "UsrTestRelatedPage",
+    "ModifiedOnUtc": "\/Date(1737732376000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "test (Page settings)",
+    "DependsOn": []
+  }
+}
