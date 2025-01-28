@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6slu2J9N94=",
+  "success": true,
+  "projectFilePath": "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtProductCatalogue\\Files\\CrtProductCatalogue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Windows\\TEMP\\4\\IIS APPPOOL_builds\\Default\\dotnet\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Windows\\TEMP\\4\\IIS APPPOOL_builds\\Default\\dotnet\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

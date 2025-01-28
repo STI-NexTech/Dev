@@ -1,0 +1,160 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "選擇: {0}",
+        "Selected": "已選：",
+        "SelectButton": "選擇",
+        "CancelButton": "取消",
+        "Blankslate": "没有此物件的記錄"
+    },
+    "SearchInput": {
+        "Placeholder": "搜索",
+        "Settings": {
+            "Cancel": "取消",
+            "Apply": "套用",
+            "SearchColumnTemplate": "按欄 \"{0} \" 搜索",
+            "StartsWith": "開始於",
+            "Contains": "包含",
+            "Equals": "等於"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "添加",
+        "BlankslateWithFilters": "沒有符合搜尋結果，請重試。"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "接受聊天",
+            "AlreadyAssignedChat": "聊天被分配給另一個代理",
+            "NewMessages": "新消息",
+            "ChatIsCompleted": "聊天完成于 {datePart} {timePart}",
+            "AcademyLink": "https://academy.creatio.com/docs/8-0/user/setup_and_administration/base_integrations/set_up_chats/overview/set_up_chat_processing",
+            "LastChatMessageAuthorCaption": "您：",
+            "DraftMessageCaption": "草稿:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "聊天頻道未配置",
+                    "textStart": "請聯絡您的系統管理員並要求設定頻道。了解更多在工作中使用聊天工具的功能",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "聊天頻道未配置",
+                    "textStart": "请稍候... ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/ChatSettings",
+                        "displayText": "新增"
+                    },
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    },
+                    "textEnd": " 一个新频道。了解更多关于在聊天中工作的信息 "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "新聊天不会分发给未激活代理",
+                    "textStart": "請將您的狀態更改為\"啟用\" 以了解更多關於在聊天中工作的信息",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "佇列中没有聊天",
+                    "textStart": "了解更多關於運用聊天室的資訊",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "新的聊天不會分發給未啟用的用戶",
+                    "textStart": "请将您的状态更改为\"激活.\" 了解更多关于在聊天中工作的信息 ",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "佇列中没有聊天",
+                    "textStart": "請到Academy了解更多關於在聊天室的資訊",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "你在工作中沒有聊天。查看新聊天列表"
+                }
+            },
+            "Actions": {
+                "Complete": "完成聊天",
+                "ProcessesDivider": "Processes",
+                "EmptyProcessesList": "在“聊天操作”上新增一個business process",
+                "SearchFacebook": "在 Facebook 上搜索",
+                "ContactDuplicates": {
+                    "Show": "顯示重複的聯絡人",
+                    "NotFound": "找不到重複的聯絡人",
+                    "Find": "尋找重複的聯絡人"
+                },
+                "Back": "返回",
+                "Transfer": "轉移聊天"
+            },
+            "ChatListTitle": "活躍的聊天",
+            "Tips": {
+                "BackToChats": "返回清單"
+            },
+            "Bots": {
+                "Name": "Copilot"
+            },
+            "NewMessagePlaceholder": "消息",
+            "AttachFile": "文件",
+            "OversizeFiles": "以下檔案超過 25 MB 最大檔案限制(s)\n{0}",
+            "NewChatsTitle": "新建聊天"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "開始聊天： {0}",
+                "EndDate": "聊天結束: {0}"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "聊天概括",
+            "Toggle": {
+                "Opened": "隱藏",
+                "Closed": "顯示更多"
+            },
+            "Fields": {
+                "Source": "來源"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "找到 {0} 個相似的聯繫人",
+            "DuplicatesNotFound": "沒有找到相似的聯絡人",
+            "FindDuplication": "尋找類似的聯絡人"
+        },
+        "Transfer": {
+            "ToOperator": "代理",
+            "ToQueue": "佇列",
+            "TransferWindowCaption": "轉移到",
+            "OperatorStatusTips": {
+                "Active": "在線",
+                "Inactive": "离線",
+                "ChatsExceeded": "已超出聊天"
+            },
+            "NoAvailableAgents": "沒有可用的Agent可以傳輸",
+            "NoAvailableQueues": "沒有可用的佇列可以傳輸"
+        }
+    },
+    "InfoDialog": {
+        "OK": "確定"
+    },
+    "MessageTemplate": {
+        "Suggestion": "推薦模板",
+        "SuggestionHint": "嘗試輸入並開始搜尋",
+        "QuickSearchHint": "輸入// 以搜索模板",
+        "TemplateSearchCaption": "回答模板"
+    },
+    "NotificationsDisabled": {
+        "textStart": "浏览器通知已禁用。启用通知以接收新的消息提醒。阅读更多",
+        "splitTextLink": {
+            "displayText": "學習資源",
+            "href": "https://academy.creatio.com/docs/8-0/user/platform_basics/communications/notifications/check_notifications_and_process_tasks#title-2099-2"
+        }
+    }
+}

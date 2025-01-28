@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtDigitalAdsApp\\Files\\CrtDigitalAdsApp.csproj": {}
+  },
+  "projects": {
+    "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtDigitalAdsApp\\Files\\CrtDigitalAdsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtDigitalAdsApp\\Files\\CrtDigitalAdsApp.csproj",
+        "projectName": "CrtDigitalAdsApp",
+        "projectPath": "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtDigitalAdsApp\\Files\\CrtDigitalAdsApp.csproj",
+        "packagesPath": "C:\\Users\\jn.admin\\.nuget\\packages\\",
+        "outputPath": "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\CrtDigitalAdsApp\\Files\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jn.admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
