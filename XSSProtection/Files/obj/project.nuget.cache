@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PzrEZsMoqP4=",
+  "success": true,
+  "projectFilePath": "C:\\creatio\\builds\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\XSSProtection\\Files\\XSSProtection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Windows\\TEMP\\4\\IIS APPPOOL_builds\\Default\\dotnet\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Windows\\TEMP\\4\\IIS APPPOOL_builds\\Default\\dotnet\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

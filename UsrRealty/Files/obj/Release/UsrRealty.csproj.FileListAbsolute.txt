@@ -1,0 +1,9 @@
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\Bin\UsrRealty.dll
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\Bin\UsrRealty.pdb
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.csproj.AssemblyReference.cache
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.GeneratedMSBuildEditorConfig.editorconfig
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.AssemblyInfoInputs.cache
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.AssemblyInfo.cs
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.csproj.CoreCompileInputs.cache
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.dll
+C:\creatio\builds\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrRealty\Files\obj\Release\UsrRealty.pdb
