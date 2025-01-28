@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtOmnichannelApp/Schemas/Channel/Channel.cs" Condition="Exists('$(PkgPath)/CrtOmnichannelApp/Schemas/Channel/Channel.cs')" />
+		<Compile Include="$(PkgPath)/CrtOmnichannelApp/Schemas/ChatQueue/ChatQueue.cs" Condition="Exists('$(PkgPath)/CrtOmnichannelApp/Schemas/ChatQueue/ChatQueue.cs')" />
+	</ItemGroup>
+</Project>

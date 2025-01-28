@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/CrtTouchInWebForm/Schemas/FormSubmit/FormSubmit.cs" Condition="Exists('$(PkgPath)/CrtTouchInWebForm/Schemas/FormSubmit/FormSubmit.cs')" />
 	</ItemGroup>
+=======
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtTouchInWebForm/Schemas/FormSubmit/FormSubmit.cs" Condition="Exists('$(PkgPath)/CrtTouchInWebForm/Schemas/FormSubmit/FormSubmit.cs')" />
+	</ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

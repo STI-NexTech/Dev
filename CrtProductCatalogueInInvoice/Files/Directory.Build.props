@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/CrtProductCatalogueInInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogueInInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs')" />
 	</ItemGroup>
+=======
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtProductCatalogueInInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogueInInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs')" />
+	</ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

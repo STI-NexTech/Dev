@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBase/KnowledgeBase.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBase/KnowledgeBase.cs')" />
 		<Compile Include="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBaseType/KnowledgeBaseType.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBaseType/KnowledgeBaseType.cs')" />
 	</ItemGroup>
+=======
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBase/KnowledgeBase.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBase/KnowledgeBase.cs')" />
+		<Compile Include="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBaseType/KnowledgeBaseType.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementApp/Schemas/KnowledgeBaseType/KnowledgeBaseType.cs')" />
+	</ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

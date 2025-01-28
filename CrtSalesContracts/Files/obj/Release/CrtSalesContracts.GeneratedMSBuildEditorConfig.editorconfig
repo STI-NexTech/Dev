@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = CrtSalesContracts
+build_property.ProjectDir = C:\CI\work\BuildProduct\Deploy\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSalesContracts\Files\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

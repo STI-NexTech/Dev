@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Condition="'$(PkgPath)' != ''">
 		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/Assemblies/**" />
@@ -16,4 +17,24 @@
 		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Schemas/**" />
 		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Resources/**" />
   </ItemGroup>
+=======
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtGoogleAnalytics/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGoogleAnalytics/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGoogleAnalytics/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGoogleAnalytics/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGoogleAnalytics/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGoogleAnalytics/Resources/**" />
+		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Data/**" />
+		<None Remove="$(PkgPath)/CrtGoogleAnalytics/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtGoogleAnalytics/Resources/**" />
+  </ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

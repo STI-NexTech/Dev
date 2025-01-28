@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Condition="'$(PkgPath)' != ''">
 		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/Assemblies/**" />
@@ -16,4 +17,24 @@
 		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Schemas/**" />
 		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Resources/**" />
   </ItemGroup>
+=======
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementObject/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementObject/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementObject/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementObject/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementObject/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementObject/Resources/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Data/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementObject/Resources/**" />
+  </ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

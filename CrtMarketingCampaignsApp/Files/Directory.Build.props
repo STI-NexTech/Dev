@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/CrtMarketingCampaignsApp/Schemas/Campaign/Campaign.cs" Condition="Exists('$(PkgPath)/CrtMarketingCampaignsApp/Schemas/Campaign/Campaign.cs')" />
 		<Compile Include="$(PkgPath)/CrtMarketingCampaignsApp/Schemas/CampaignStatus/CampaignStatus.cs" Condition="Exists('$(PkgPath)/CrtMarketingCampaignsApp/Schemas/CampaignStatus/CampaignStatus.cs')" />
 	</ItemGroup>
+=======
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtMarketingCampaignsApp/Schemas/Campaign/Campaign.cs" Condition="Exists('$(PkgPath)/CrtMarketingCampaignsApp/Schemas/Campaign/Campaign.cs')" />
+		<Compile Include="$(PkgPath)/CrtMarketingCampaignsApp/Schemas/CampaignStatus/CampaignStatus.cs" Condition="Exists('$(PkgPath)/CrtMarketingCampaignsApp/Schemas/CampaignStatus/CampaignStatus.cs')" />
+	</ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

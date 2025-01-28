@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 namespace CrtGoogleAnalytics.API.Dto
 {
 	using Newtonsoft.Json;
@@ -9,3 +10,16 @@ namespace CrtGoogleAnalytics.API.Dto
 		public List<GADataStream> DataStreams { get; set; }
 	}
 }
+=======
+namespace CrtGoogleAnalytics.API.Dto
+{
+	using Newtonsoft.Json;
+	using System.Collections.Generic;
+
+	internal class GADataStreamsResponse
+	{
+		[JsonProperty("dataStreams")]
+		public List<GADataStream> DataStreams { get; set; }
+	}
+}
+>>>>>>> e78d6ac (merge to local)

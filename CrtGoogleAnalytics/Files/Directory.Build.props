@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/AnalyticsAccountUser/AnalyticsAccountUser.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/AnalyticsAccountUser/AnalyticsAccountUser.cs')" />
@@ -8,4 +9,16 @@
 		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchActionType/TouchActionType.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchActionType/TouchActionType.cs')" />
 		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/WebAnalyticsStream/WebAnalyticsStream.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/WebAnalyticsStream/WebAnalyticsStream.cs')" />
 	</ItemGroup>
+=======
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/AnalyticsAccountUser/AnalyticsAccountUser.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/AnalyticsAccountUser/AnalyticsAccountUser.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/City/City.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/City/City.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/ReferrerType/ReferrerType.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/ReferrerType/ReferrerType.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/Touch/Touch.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/Touch/Touch.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchAction/TouchAction.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchAction/TouchAction.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchActionType/TouchActionType.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/TouchActionType/TouchActionType.cs')" />
+		<Compile Include="$(PkgPath)/CrtGoogleAnalytics/Schemas/WebAnalyticsStream/WebAnalyticsStream.cs" Condition="Exists('$(PkgPath)/CrtGoogleAnalytics/Schemas/WebAnalyticsStream/WebAnalyticsStream.cs')" />
+	</ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project>
 	<ItemGroup Condition="'$(PkgPath)' != ''">
 		<Compile Remove="$(PkgPath)/CrtPortal/Assemblies/**" />
@@ -16,4 +17,24 @@
 		<None Remove="$(PkgPath)/CrtPortal/Schemas/**" />
 		<None Remove="$(PkgPath)/CrtPortal/Resources/**" />
   </ItemGroup>
+=======
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtPortal/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtPortal/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtPortal/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtPortal/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtPortal/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtPortal/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtPortal/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtPortal/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtPortal/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtPortal/Resources/**" />
+		<None Remove="$(PkgPath)/CrtPortal/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtPortal/Data/**" />
+		<None Remove="$(PkgPath)/CrtPortal/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtPortal/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtPortal/Resources/**" />
+  </ItemGroup>
+>>>>>>> e78d6ac (merge to local)
 </Project>
